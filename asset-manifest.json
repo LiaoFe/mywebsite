@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/mywebsite/static/css/main.3bf72b05.css",
+    "main.css": "/mywebsite/static/css/main.3d3a5d4c.css",
     "main.js": "/mywebsite/static/js/main.38f8c23f.js",
     "static/media/FelixLiaoResumev2.pdf": "/mywebsite/static/media/FelixLiaoResumev2.190c1fda9f765b55be86.pdf",
     "index.html": "/mywebsite/index.html",
-    "main.3bf72b05.css.map": "/mywebsite/static/css/main.3bf72b05.css.map",
+    "main.3d3a5d4c.css.map": "/mywebsite/static/css/main.3d3a5d4c.css.map",
     "main.38f8c23f.js.map": "/mywebsite/static/js/main.38f8c23f.js.map"
   },
   "entrypoints": [
-    "static/css/main.3bf72b05.css",
+    "static/css/main.3d3a5d4c.css",
     "static/js/main.38f8c23f.js"
   ]
 }
