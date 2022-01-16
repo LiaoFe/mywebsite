@@ -1,4 +1,4 @@
-h1, h2, h5, p, a{
+h1, h2, h5, p{
     font-family: "Space Grotesk", sans-serif;
     margin:auto;
     color: white;
@@ -9,10 +9,11 @@ h1, h2, h5, p, a{
 h5 {
     margin-bottom: 0%;
     margin-top: 0;
+    padding:1%
 }
 
 p {
-    margin: 2%;
+    margin: 1%;
 }
 
 body {
@@ -30,23 +31,28 @@ body {
 #cards{
     align-self: center;
     width: 10px;
-    height: 100px;
-    padding-top: 5%;
+    height: 105px;
+    margin-top: 5%;
 }
 
 #no-padding{
     padding: 0%;
 }
 
-#contact, #skills, #hobbies, #welcome {
-    padding: 10%;
+#contact, #skills, #hobbies, #welcome, #about {
+    padding: 5%;
     background-color: 25274D;
     align-self: center;
+}
+
+#welcome {
+    padding: 10%;
 }
 
 #hobbies {
     max-width: 1000px;
 }
+
 
 #longer {
     max-width: 900px;
@@ -55,10 +61,6 @@ body {
 #shorter {
     max-width: 500px;
     align-self: center;
-}
-
-#welcome {
-    padding: 15%;
 }
 
 #blogbutton{
@@ -75,7 +77,10 @@ body {
     width: 32px;
     height: 32px;
     align-self: center;
-    margin: 5px;
+}
+
+#githublogolink {
+    margin:0%;
 }
 
 .btn {
