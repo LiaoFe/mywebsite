@@ -26,7 +26,7 @@ const App = () =>{
                 <Route path='/hobbies'>
                     <Hobbies />
                 </Route>
-                <Route path='./blog'>
+                <Route path='/blog'>
                     <Blog />
                 </Route>
             </Switch>

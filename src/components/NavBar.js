@@ -27,7 +27,7 @@
         }
 
       export default NavBar; */
-      import React from 'react';
+import React from 'react';
 import { Navbar,Nav,NavDropdown, Container, Col } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link, Switch, Route } from 'react-router-dom';
@@ -46,7 +46,7 @@ import './navbar.css'
         <Nav className="ms-auto me-3" id="tabtext" style={{background: "#464866"}}>
           <Nav.Link href='./'>About</Nav.Link>
           <Nav.Link href="./#hobbies">Hobbies</Nav.Link>
-          <Nav.Link href="./blog">Blog</Nav.Link>
+          <Nav.Link to="/blog">Blog</Nav.Link>
           <Nav.Link href="./#contact">Contact</Nav.Link>
         </Nav>
 

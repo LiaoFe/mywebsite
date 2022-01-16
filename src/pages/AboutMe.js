@@ -78,12 +78,12 @@ function AboutMe(){
   
                     </Row>
                 </Container>
-                <Stack id="hobbies">
+                <Stack id="hobbies" style={{margin: "auto"}}>
                     <h2>Hobbies</h2>
-                    <p>I love playing badminton</p>
-                    <p>During the pandemic, I started playing new video games and wrote a blog review on some of them</p>
+                    <p id="longer">I love playing badminton, going to the gym, and challenging my thinking</p>
+                    <p id="shorter">During the pandemic, I started playing new video games and wrote a blog review on some of them</p>
                     <p>Check out my blog below!</p>
-                    <Button class="btn btn-secondary" href='/blog' id="blogbutton">Felix's Video Game Reviews</Button>
+                    <Button class="btn btn-secondary" href='/blog' id="blogbutton">My Game Reviews</Button>
                 </Stack>
                 <Stack id="contact">
         

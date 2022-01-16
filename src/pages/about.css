@@ -12,7 +12,7 @@ h5 {
 }
 
 p {
-    margin-top: 0.5%;
+    margin: 2%;
 }
 
 body {
@@ -41,6 +41,20 @@ body {
 #contact, #skills, #hobbies, #welcome {
     padding: 10%;
     background-color: 25274D;
+    align-self: center;
+}
+
+#hobbies {
+    max-width: 1000px;
+}
+
+#longer {
+    max-width: 900px;
+}
+
+#shorter {
+    max-width: 500px;
+    align-self: center;
 }
 
 #welcome {
@@ -62,4 +76,8 @@ body {
     height: 32px;
     align-self: center;
     margin: 5px;
+}
+
+.btn {
+    min-width: 100px;
 }
