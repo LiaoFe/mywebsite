@@ -18,7 +18,7 @@ const App = () =>{
             <NavBar/>
             <BackToTop/>   
             <Switch>
-                <Route path='/' exact>
+                <Route path='/'>
                     
                             <AboutMe />
                         
