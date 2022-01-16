@@ -44,10 +44,10 @@ import './navbar.css'
         <Navbar.Brand className='ms-4' href="#home" id="hometext" >Felix</Navbar.Brand>
       
         <Nav className="ms-auto me-3" id="tabtext" style={{background: "#464866"}}>
-          <Nav.Link href='/mywebsite//'>About</Nav.Link>
-          <Nav.Link href="/mywebsite//#hobbies">Hobbies</Nav.Link>
+          <Nav.Link href='/mywebsite/'>About</Nav.Link>
+          <Nav.Link href="/mywebsite/#hobbies">Hobbies</Nav.Link>
           <Nav.Link href="/blog">Blog</Nav.Link>
-          <Nav.Link href="/mywebsite//#contact">Contact</Nav.Link>
+          <Nav.Link href="/mywebsite/#contact">Contact</Nav.Link>
         </Nav>
 
       </Navbar>
