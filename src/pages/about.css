@@ -47,7 +47,10 @@ body {
 
 #welcome {
     padding: 10%;
+    padding-top: 12%;
+    padding-bottom: 4%;
 }
+
 
 #hobbies {
     max-width: 1000px;
