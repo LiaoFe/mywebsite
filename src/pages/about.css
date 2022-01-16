@@ -1,5 +1,5 @@
 h1, h2, h5, p{
-    font-family: "Space Grotesk", sans-serif;
+    font-family: 'Sora', sans-serif;
     margin:auto;
     color: white;
     margin-top: 2%;
@@ -40,7 +40,7 @@ body {
 }
 
 #contact, #skills, #hobbies, #welcome, #about {
-    padding: 5%;
+    padding: 6%;
     background-color: 25274D;
     align-self: center;
 }
