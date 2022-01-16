@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  background-color: #fcf3f6;
+}
+
+#tabtext {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 150%;
+  color: white;
+  margin-top: 0;
+}
+
+
+
+#hometext{
+    font-size: 200%;
+    margin: auto;
+}
+
+#navbar{
+    margin: 0;
+}
+
+.nav-link{
+  margin-top: 0;
+}
+
+.navbar-custom {
+  background-color: #464866;
+}

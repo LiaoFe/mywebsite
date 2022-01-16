@@ -1,0 +1,65 @@
+h1, h2, h5, p, a{
+    font-family: "Space Grotesk", sans-serif;
+    margin:auto;
+    color: white;
+    margin-top: 2%;
+    text-align: center;
+}
+
+h5 {
+    margin-bottom: 0%;
+    margin-top: 0;
+}
+
+p {
+    margin-top: 0.5%;
+}
+
+body {
+    background-color: #464866;
+}
+
+#logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: auto;
+}
+
+#cards{
+    align-self: center;
+    width: 10px;
+    height: 100px;
+    padding-top: 5%;
+}
+
+#no-padding{
+    padding: 0%;
+}
+
+#contact, #skills, #hobbies, #welcome {
+    padding: 10%;
+    background-color: 25274D;
+}
+
+#welcome {
+    padding: 15%;
+}
+
+#blogbutton{
+    margin-top: 1%;
+    align-self: center;
+    width:20%;
+}
+
+#card-name {
+    color: White;
+}
+
+#githublogo {
+    width: 32px;
+    height: 32px;
+    align-self: center;
+    margin: 5px;
+}
