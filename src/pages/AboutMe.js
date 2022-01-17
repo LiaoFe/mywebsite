@@ -88,7 +88,7 @@ function AboutMe(){
                     <p id="shorter">During the pandemic, I started playing new video games and wrote a blog review on some of them</p>
                     <p>Check out my blog below!</p>
                     <Link to="/blog/" id="blogbutton">
-                        <Button className="btn btn-secondary" to='/blog'>
+                        <Button className="btn btn-secondary">
                             My Game Reviews
                         </Button>
                     </Link>
