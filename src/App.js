@@ -20,7 +20,6 @@ const App = () =>{
         <div>
             <NavBar/>
             <BackToTop/>   
-            <ScrollToTop />
             <Switch>
                 <Route path='/' exact>                   
                      <AboutMe />

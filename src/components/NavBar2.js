@@ -5,6 +5,7 @@ import { Link, Switch, Route } from 'react-router-dom';
 import AboutMe from '../pages/AboutMe';
 import Hobbies from '../pages/Hobbies';
 import Blog from '../pages/Blog';
+import ScrollToTop from './ScrollToTop';
 import './navbar.css'
 
   function NavBar(){
@@ -12,6 +13,7 @@ import './navbar.css'
     
     const toggleVisible = () => {
       setVisible(!visible);
+        window.scrollTo(0, 0);
     };
     const url = "/mywebsite/"
       return( 
@@ -24,7 +26,6 @@ import './navbar.css'
           <Nav.Link href={ url +'#about' }>About</Nav.Link>
           <Nav.Link href={ url + "#skills" }>Skills</Nav.Link>
           <Nav.Link href={ url + "#hobbies" }>Hobbies</Nav.Link>
-          
           <Nav.Link href={ url + "#contact" } >Contact</Nav.Link>
           <Link to='./blog' >
             <Nav.Link className="pe-0" href="./blog" onClick={toggleVisible}>Blog</Nav.Link >
