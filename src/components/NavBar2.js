@@ -13,7 +13,7 @@ import './navbar.css'
     const toggleVisible = () => {
       setVisible(!visible);
     };
-
+    const url = "/mywebsite/"
       return( 
         
         <Navbar className="pb-0" variant="dark fixed-top" id="navbar" style={{background: "#464866"}}>
@@ -21,11 +21,11 @@ import './navbar.css'
         <Navbar.Brand className='ms-4' href="#welcome" id="hometext" >Felix</Navbar.Brand>
       
         <Nav className="ms-auto me-3" id="tabtext" style={{background: "#464866"}}>
-          <Nav.Link href='/mywebsite/#about'>About</Nav.Link>
-          <Nav.Link href="/mywebsite/#skills">Skills</Nav.Link>
-          <Nav.Link href="/mywebsite/#hobbies">Hobbies</Nav.Link>
+          <Nav.Link href={ url +'#about' }>About</Nav.Link>
+          <Nav.Link href={ url + "#skills" }>Skills</Nav.Link>
+          <Nav.Link href={ url + "#hobbies" }>Hobbies</Nav.Link>
           
-          <Nav.Link href="/mywebsite/#contact" >Contact</Nav.Link>
+          <Nav.Link href={ url + "#contact" } >Contact</Nav.Link>
           <Link to='./blog' >
             <Nav.Link className="pe-0" href="./blog" onClick={toggleVisible}>Blog</Nav.Link >
           </Link>
