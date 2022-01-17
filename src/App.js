@@ -21,7 +21,7 @@ const App = () =>{
                 <Route path='/' exact>                   
                      <AboutMe />
                 </Route>
-                <Route path='/mywebsite/blog'>
+                <Route path='/blog'>
                     <Blog />
                 </Route>
             </Switch>
