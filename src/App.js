@@ -1,5 +1,6 @@
 import {React, useState, useEffect} from 'react';
-import { Route, Switch} from 'react-router-dom';
+import { Route, Switch, useRouteMatch,
+    useParams} from 'react-router-dom';
 import AboutMe from './pages/AboutMe';
 import Hobbies from './pages/Hobbies';
 import Blog from './pages/Blog';
@@ -12,7 +13,8 @@ import BackToTop from "./components/BackToTop.js";
 //import Layout from './components/layout/Layout';
 
 const App = () =>{
-    
+    let match = useRouteMatch();
+
     return(
         <div>
             <NavBar/>
