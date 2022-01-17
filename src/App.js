@@ -20,10 +20,16 @@ const App = () =>{
             <NavBar/>
             <BackToTop/>   
             <Switch>
-                <Route path='/mywebsite/' exact>                   
+                <Route path='/' exact>                   
                      <AboutMe />
                 </Route>
                 <Route path='/blog'>
+                    <Blog />
+                </Route>
+                <Route path='/mywebsite' exact>                   
+                     <AboutMe />
+                </Route>
+                <Route path='/mywebsite/blog'>
                     <Blog />
                 </Route>
             </Switch>
