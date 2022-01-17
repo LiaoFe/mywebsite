@@ -15,9 +15,9 @@ import './navbar.css'
         <Navbar.Brand className='ms-4' href="#welcome" id="hometext" >Felix</Navbar.Brand>
       
         <Nav className="ms-auto me-3" id="tabtext" style={{background: "#464866"}}>
-          <Nav.Link href='/#about'>About</Nav.Link>
-          <Nav.Link href="/#skills">Skills</Nav.Link>
-          <Nav.Link href="/#hobbies">Hobbies</Nav.Link>
+          <Nav.Link href='./#about'>About</Nav.Link>
+          <Nav.Link href="./#skills">Skills</Nav.Link>
+          <Nav.Link href="./#hobbies">Hobbies</Nav.Link>
           <Link to='./blog'>
             <Nav.Link  href="./blog">Blog</Nav.Link >
           </Link>
