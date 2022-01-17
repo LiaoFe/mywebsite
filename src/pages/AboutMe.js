@@ -1,5 +1,5 @@
 import { Container, Col, Row, Card, ListGroup, Stack, Button } from 'react-bootstrap'
-import NavBar from '../components/NavBar'
+import NavBar from '../components/NavBar2'
 import './about.css'
 import ReactLogo  from '../images/React-icon.png'
 import HTMLLogo from '../images/HTML-icon.png'
@@ -86,8 +86,12 @@ function AboutMe(){
                     <h2>Hobbies</h2>
                     <p id="longer">I love playing badminton, going to the gym, and challenging my thinking</p>
                     <p id="shorter">During the pandemic, I started playing new video games and wrote a blog review on some of them</p>
-                    {/* <p>Check out my blog below!</p>
-                    <Button className="btn btn-secondary" href='/blog' id="blogbutton">My Game Reviews</Button> */}
+                    <p>Check out my blog below!</p>
+                    <Link to="/blog/" id="blogbutton">
+                        <Button className="btn btn-secondary" to='/blog'>
+                            My Game Reviews
+                        </Button>
+                    </Link>
                 </Stack>
                 <Stack id="contact">
                         <h2>

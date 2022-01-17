@@ -1,0 +1,16 @@
+
+a {
+    color: #FFF;
+  }
+a:hover {
+    color: rgb(89, 0, 255)
+}
+
+#text, p, .custom {
+    font-family: 'Space Grotesk', sans-serif;
+    text-align: left;
+}
+
+#witcher3, #ac-odyssey {
+    padding-top: 3%;
+}
