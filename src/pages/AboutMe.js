@@ -8,7 +8,7 @@ import JavaLogo from '../images/java-icon.png'
 import NodejsLogo from '../images/nodejs-icon.png'
 import CPlusPlusLogo from '../images/C++icon.png'
 import GithubLogo from '../images/GitHub-Mark-Light-64px.png'
-import Resume from "./FelixLiaoResumev2.pdf"
+import Resume from "./FelixLiaoResume.pdf"
 import { Link } from 'react-router-dom'
 //import ReactLogo  from '../images/128px-React-icon.svg.png'
 
