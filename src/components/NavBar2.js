@@ -1,5 +1,5 @@
-import React from 'react';
-import { Navbar,Nav,NavDropdown, Container, Col, Button, Dropdown } from 'react-bootstrap'
+import React, {useState} from 'react';
+import { Navbar,Nav,NavDropdown, Container, Col, Button, Dropdown, Fade } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link, Switch, Route } from 'react-router-dom';
 import AboutMe from '../pages/AboutMe';
@@ -8,6 +8,12 @@ import Blog from '../pages/Blog';
 import './navbar.css'
 
   function NavBar(){
+    const [visible, setVisible] = useState(false)
+    
+    const toggleVisible = () => {
+      setVisible(!visible);
+    };
+
       return( 
         
         <Navbar className="pb-0" variant="dark fixed-top" id="navbar" style={{background: "#464866"}}>
@@ -18,12 +24,15 @@ import './navbar.css'
           <Nav.Link href='./#about'>About</Nav.Link>
           <Nav.Link href="./#skills">Skills</Nav.Link>
           <Nav.Link href="./#hobbies">Hobbies</Nav.Link>
-          <Link to='./blog'>
-            <Nav.Link  href="./blog">Blog</Nav.Link >
+          
+          <Nav.Link href="./#contact" >Contact</Nav.Link>
+          <Link to='./blog' >
+            <Nav.Link className="pe-0" href="./blog" onClick={toggleVisible}>Blog</Nav.Link >
           </Link>
+          <Fade in={visible} >
           <NavDropdown //as={ButtonGroup}
             align={{ lg: 'end' }}
-            id="dropdown-menu-align-responsive-1" to='/blog'>
+            id="dropdown-menu-align-responsive-1" to='/blog' >
             <NavDropdown.Item href="./blog#witcher3">Witcher 3</NavDropdown.Item>
             {/* <NavDropdown.Item href="ac-3">Assassin's Creed: III</NavDropdown.Item>
             <NavDropdown.Item href="ac-black-flag">Assassin's Creed: Black Flag</NavDropdown.Item> */}
@@ -31,7 +40,7 @@ import './navbar.css'
         {/*     <NavDropdown.Item href="ac-valhalla">Assassin's Creed: Valhalla</NavDropdown.Item>
             <NavDropdown.Item href="#gta5">Grand Theft Auto </NavDropdown.Item> */}
           </NavDropdown>
-          <Nav.Link href="./#contact">Contact</Nav.Link>
+          </Fade>
         </Nav>
 
       </Navbar>
