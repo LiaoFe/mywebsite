@@ -10,6 +10,7 @@ import './index.css';
 import { Container, Col, Row  } from 'react-bootstrap';
 import ScrollButton from './components/BackToTop.js';
 import BackToTop from "./components/BackToTop.js";
+import ScrollToTop from './components/ScrollToTop';
 //import Layout from './components/layout/Layout';
 
 const App = () =>{
@@ -19,6 +20,7 @@ const App = () =>{
         <div>
             <NavBar/>
             <BackToTop/>   
+            <ScrollToTop />
             <Switch>
                 <Route path='/' exact>                   
                      <AboutMe />
