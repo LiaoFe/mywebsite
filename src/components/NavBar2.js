@@ -8,8 +8,9 @@ import Blog from '../pages/Blog';
 import ScrollToTop from './ScrollToTop';
 import './navbar.css'
 
-  function NavBar(){
+  function NavBar(props){
     const [visible, setVisible] = useState(false)
+    
     
     const toggleVisible = () => {
       setVisible(!visible);

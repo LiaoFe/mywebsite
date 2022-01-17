@@ -4,7 +4,7 @@ import { Route, Switch, useRouteMatch,
 import AboutMe from './pages/AboutMe';
 import Hobbies from './pages/Hobbies';
 import Blog from './pages/Blog';
-import NavBar from './components/NavBar2'
+import NavBar from './components/NavBar'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import { Container, Col, Row  } from 'react-bootstrap';
@@ -18,20 +18,26 @@ const App = () =>{
 
     return(
         <div>
-            <NavBar/>
+            
             <BackToTop/>   
+            <NavBar />
             <Switch>
-                <Route path='/' exact>                   
+                <Route path='/' exact>   
+                   
                      <AboutMe />
                 </Route>
                 <Route path='/blog'>
                     <Blog />
                 </Route>
-                <Route path='/mywebsite' exact>                   
+                <Route path='/mywebsite' exact>  
+                      
                      <AboutMe />
+                     
                 </Route>
                 <Route path='/mywebsite/blog'>
+             
                     <Blog />
+                    
                 </Route>
             </Switch>
             

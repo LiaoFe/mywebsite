@@ -10,6 +10,7 @@ import CPlusPlusLogo from '../images/C++icon.png'
 import GithubLogo from '../images/GitHub-Mark-Light-64px.png'
 import Resume from "./FelixLiaoResume.pdf"
 import { Link } from 'react-router-dom'
+import Blog from './Blog'
 //import ReactLogo  from '../images/128px-React-icon.svg.png'
 
 const Icon = (props) =>{
@@ -88,7 +89,10 @@ function AboutMe(){
                     <p id="shorter">During the pandemic, I started playing new video games and wrote a blog review on some of them</p>
                     <p>Check out my blog below!</p>
                     <Link to="/blog" id="blogbutton">
-                        <Button className="btn btn-secondary " onClick={() =>{window.scrollTo(0, 0)}}>
+                        <Button className="btn btn-secondary " onClick={() =>{
+                            window.scrollTo(0, 0);
+                            this.toggleVisible();
+                        }}>
                             My Game Reviews
                         </Button>
                     </Link>
