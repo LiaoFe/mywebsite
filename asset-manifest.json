@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/mywebsite/static/css/main.1793f36f.css",
-    "main.js": "/mywebsite/static/js/main.fe5b898e.js",
+    "main.js": "/mywebsite/static/js/main.bd46b5a6.js",
     "static/media/ACodyssey.jpg": "/mywebsite/static/media/ACodyssey.aa03e2093aa3e1bac8f5.jpg",
     "static/media/witcher3.jpg": "/mywebsite/static/media/witcher3.941cfdd8c9e74e9ee0b4.jpg",
     "static/media/FelixLiaoResumev2.pdf": "/mywebsite/static/media/FelixLiaoResumev2.190c1fda9f765b55be86.pdf",
     "index.html": "/mywebsite/index.html",
     "main.1793f36f.css.map": "/mywebsite/static/css/main.1793f36f.css.map",
-    "main.fe5b898e.js.map": "/mywebsite/static/js/main.fe5b898e.js.map"
+    "main.bd46b5a6.js.map": "/mywebsite/static/js/main.bd46b5a6.js.map"
   },
   "entrypoints": [
     "static/css/main.1793f36f.css",
-    "static/js/main.fe5b898e.js"
+    "static/js/main.bd46b5a6.js"
   ]
 }
