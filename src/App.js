@@ -28,12 +28,12 @@ const App = () =>{
                 <Route path='/blog'>
                     <Blog />
                 </Route>
-                {/* <Route path='/mywebsite' exact>                   
+                <Route path='/mywebsite' exact>                   
                      <AboutMe />
                 </Route>
                 <Route path='/mywebsite/blog'>
                     <Blog />
-                </Route> */}
+                </Route>
             </Switch>
             
         </div>
