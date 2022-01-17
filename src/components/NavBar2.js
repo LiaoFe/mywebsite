@@ -18,7 +18,7 @@ import './navbar.css'
           <Nav.Link href='./#about'>About</Nav.Link>
           <Nav.Link href="./#skills">Skills</Nav.Link>
           <Nav.Link href="./#hobbies">Hobbies</Nav.Link>
-          <Nav.Link  href="/blog">Blog</Nav.Link >
+          <Nav.Link  href="./blog">Blog</Nav.Link >
           <NavDropdown //as={ButtonGroup}
             align={{ lg: 'end' }}
             id="dropdown-menu-align-responsive-1" to='/blog'>
