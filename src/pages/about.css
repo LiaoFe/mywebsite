@@ -57,6 +57,8 @@ body {
 
 #hobbies {
     max-width: 1000px;
+    padding-top: 0%;
+    text-align: center;
 }
 
 
@@ -66,7 +68,7 @@ body {
 
 #shorter {
     max-width: 500px;
-    align-self: center;
+    margin:auto;
 }
 
 #blogbutton{
@@ -93,3 +95,4 @@ body {
 .btn {
     min-width: 100px;
 }
+
