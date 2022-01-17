@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import UpArrow  from '../images/uparrow.png'
 import { Button, Fade }  from 'react-bootstrap';
-  
+import './navbar.css'
 const ScrollButton = () =>{
   
     const [visible, setVisible] = useState(false)
@@ -30,7 +30,7 @@ const ScrollButton = () =>{
             
         
         <Fade in={visible}>
-            <Button className="position-fixed bottom-0 end-0 m-3" variant="secondary"  onClick={scrollToTop}
+            <Button id="thin" className="position-fixed bottom-0 end-0 m-3 pe-0 ps-0" variant="secondary"  onClick={scrollToTop}
             >
             <img src={UpArrow} id="uparrow"></img>
             </Button>
