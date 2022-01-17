@@ -39,7 +39,7 @@ import './navbar.css'
           <Nav.Link href={ url + "#hobbies" }>Hobbies</Nav.Link>
           <Nav.Link href={ url + "#contact" } >Contact</Nav.Link>
           <Link to='./blog' >
-            <Nav.Link className="pe-0" href="./blog" /* onClick={toggleVisible} */>Blog</Nav.Link >
+            <Nav.Link className="pe-0" href="./blog"  onClick={() => {window.scrollTo(0, 0)}}>Blog</Nav.Link >
           </Link>
            <Fade in={visible}> 
           <NavDropdown //as={ButtonGroup}
