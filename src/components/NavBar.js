@@ -20,7 +20,7 @@ import './navbar.css'
 
     const location = useLocation();
     React.useEffect(() => {
-      if (window.location.pathname === "/blog")  {
+      if (window.location.pathname === "/mywebsite/blog")  {
         setVisible(true);
       } else {
         setVisible(false)
