@@ -88,7 +88,7 @@ function AboutMe(){
                     <p id="longer">I love playing badminton, going to the gym, and challenging my thinking</p>
                     <p id="shorter">During the pandemic, I started playing new video games and wrote a blog review on some of them</p>
                     <p>Check out my blog below!</p>
-                    <Link to="/blog" id="blogbutton">
+                    <Link to="/mywebsite/blog" id="blogbutton">
                         <Button className="btn btn-secondary " onClick={() =>{
                             window.scrollTo(0, 0);
                             this.toggleVisible();

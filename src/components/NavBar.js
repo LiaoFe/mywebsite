@@ -41,7 +41,7 @@ import './navbar.css'
           <Link to='./blog' >
             <Nav.Link className="pe-0" href="./blog" /* onClick={toggleVisible} */>Blog</Nav.Link >
           </Link>
-          {/* <Fade > */}
+           <Fade in={visible}> 
           <NavDropdown //as={ButtonGroup}
             align={{ lg: 'end' }}
             id="dropdown-menu-align-responsive-1" to='/blog' >
@@ -52,7 +52,7 @@ import './navbar.css'
         {/*     <NavDropdown.Item href="ac-valhalla">Assassin's Creed: Valhalla</NavDropdown.Item>
             <NavDropdown.Item href="#gta5">Grand Theft Auto </NavDropdown.Item> */}
           </NavDropdown>
-          {/* </Fade> */}
+          </Fade>
         </Nav>
 
       </Navbar>
