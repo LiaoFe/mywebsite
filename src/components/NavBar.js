@@ -31,7 +31,7 @@ import './navbar.css'
         
         <Navbar className="pb-0" variant="dark fixed-top" id="navbar" style={{background: "#464866"}}>
   
-        <Navbar.Brand as={Link} to='/' className='ms-4' id="hometext" >Felix</Navbar.Brand>
+        <Navbar.Brand as={Nav.Item.Link} href={ url +'#welcome' } className='ms-4' id="hometext" >Felix</Navbar.Brand>
       
         <Nav className="ms-auto me-3" id="tabtext" style={{background: "#464866"}}>
           <Nav.Link href={ url +'#about' }>About</Nav.Link>
