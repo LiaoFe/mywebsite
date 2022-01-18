@@ -39,11 +39,11 @@ import './navbar.css'
           <Nav.Link href={ url + "#hobbies" }>Hobbies</Nav.Link>
           <Nav.Link href={ url + "#contact" } >Contact</Nav.Link>
          
-            <Nav.Link className="pe-0" href="./blog"  onClick={() => {window.scrollTo(0, 0)}}>Blog</Nav.Link >
+            <Nav.Link className="pe-0" href={ url + "blog" }  onClick={() => {window.scrollTo(0, 0)}}>Blog</Nav.Link >
           
            <Fade in={visible}> 
           <NavDropdown //as={ButtonGroup}
-            align={{ lg: 'end' }} 
+            /* align={{ lg: 'end' }} */
             id="dropdown-menu-align-responsive-1" to='/blog' right={true}>
             <NavDropdown.Item href="./blog#witcher3">Witcher 3</NavDropdown.Item>
             {/* <NavDropdown.Item href="ac-3">Assassin's Creed: III</NavDropdown.Item>

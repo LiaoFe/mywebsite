@@ -28,9 +28,9 @@ import './navbar.css'
           <Nav.Link href={ url + "#skills" }>Skills</Nav.Link>
           <Nav.Link href={ url + "#hobbies" }>Hobbies</Nav.Link>
           <Nav.Link href={ url + "#contact" } >Contact</Nav.Link>
-          
-            <Nav.Link className="pe-0" href="./blog" onClick={toggleVisible}>Blog</Nav.Link >
-          
+     
+            <Nav.Link className="pe-0" to="./blog" onClick={toggleVisible}>Blog</Nav.Link >
+        
           <Fade in={visible} >
           <NavDropdown //as={ButtonGroup}
             align={{ lg: 'end' }}
