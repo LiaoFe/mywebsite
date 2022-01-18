@@ -7,7 +7,7 @@ import NavBar from './components/NavBar'
   // =======================================
     
   ReactDOM.render(
-    <BrowserRouter>
+    <BrowserRouter basename='/mywebsite/'>
       <App />
     </BrowserRouter>,
     document.getElementById('root')
