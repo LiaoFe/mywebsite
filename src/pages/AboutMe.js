@@ -89,7 +89,7 @@ function AboutMe(){
                     <p id="longer">I love playing badminton, going to the gym, and challenging my thinking</p>
                     <p id="shorter">During the pandemic, I started playing new video games and wrote a blog review on some of them</p>
                     <p id="shorter">Check out my blog below!</p>
-                    <Link to="/mywebsite/blog" id="blogbutton">
+                    <Link to="/blog" id="blogbutton">
                         <Button className="btn btn-secondary "  onClick={() =>{
                             window.scrollTo(0, 0);
                         }}>
