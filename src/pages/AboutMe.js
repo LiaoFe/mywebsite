@@ -1,5 +1,5 @@
 import { Container, Col, Row, Card, ListGroup, Stack, Button } from 'react-bootstrap'
-import NavBar from '../components/NavBar2'
+import NavBar from '../components/NavBar'
 import './about.css'
 import ReactLogo  from '../images/React-icon.png'
 import HTMLLogo from '../images/HTML-icon.png'
@@ -11,6 +11,7 @@ import GithubLogo from '../images/GitHub-Mark-Light-64px.png'
 import Resume from "./FelixLiaoResume.pdf"
 import { Link } from 'react-router-dom'
 import Blog from './Blog'
+import '../components/navbar.css'
 //import ReactLogo  from '../images/128px-React-icon.svg.png'
 
 const Icon = (props) =>{
@@ -47,7 +48,7 @@ function AboutMe(){
                         <p> Student at the University of Waterloo, CS '25</p>
                         <p>Enthusiastic to learn new coding skills</p>
                         <a href={Resume} target="_blank" style={{margin:"auto"}}>
-                            <Button className="m-auto" variant="secondary"  >
+                            <Button className="m-auto mt-2" variant="secondary"  >
                                  My Resume
                             </Button>
                         </a> 
@@ -87,9 +88,9 @@ function AboutMe(){
                     <h2>Hobbies</h2>
                     <p id="longer">I love playing badminton, going to the gym, and challenging my thinking</p>
                     <p id="shorter">During the pandemic, I started playing new video games and wrote a blog review on some of them</p>
-                    <p>Check out my blog below!</p>
+                    <p id="shorter">Check out my blog below!</p>
                     <Link to="/mywebsite/blog" id="blogbutton">
-                        <Button className="btn btn-secondary " onClick={() =>{
+                        <Button className="btn btn-secondary "  onClick={() =>{
                             window.scrollTo(0, 0);
                             this.toggleVisible();
                         }}>

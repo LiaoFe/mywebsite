@@ -38,9 +38,9 @@ import './navbar.css'
           <Nav.Link href={ url + "#skills" }>Skills</Nav.Link>
           <Nav.Link href={ url + "#hobbies" }>Hobbies</Nav.Link>
           <Nav.Link href={ url + "#contact" } >Contact</Nav.Link>
-          <Link to='./blog' >
+         
             <Nav.Link className="pe-0" href="./blog"  onClick={() => {window.scrollTo(0, 0)}}>Blog</Nav.Link >
-          </Link>
+          
            <Fade in={visible}> 
           <NavDropdown //as={ButtonGroup}
             align={{ lg: 'end' }}

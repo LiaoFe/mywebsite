@@ -1,4 +1,3 @@
-import NavBar from '../components/NavBar'
 import JavaLogo from '../images/java-icon.png'
 import {Container, Stack, Card } from 'react-bootstrap'
 import Witcher3 from '../images/witcher3.jpg'
