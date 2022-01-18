@@ -10,7 +10,7 @@ const ReviewCard = (props) => {
             <Card className='m-auto w-75 mb-3' bg='secondary' id="customcards">
                 <Card.Text className="m-auto h2 mb-3" >{props.name}</Card.Text>
                 <Card.Img variant="top" src={props.img} />
-                <Card.Text className='fst-italic m-auto'>image source: <a href={props.source} target="_blank">
+                <Card.Text className='fst-italic m-auto' id="size">image source: <a id="size" href={props.source} target="_blank">
                     {props.source} </a>
                 </Card.Text>
                 <Card.Body>

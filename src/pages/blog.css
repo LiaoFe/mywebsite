@@ -14,3 +14,7 @@ a:hover {
 #witcher3, #ac-odyssey {
     padding-top: 3%;
 }
+
+#size {
+    font-size: 75%;
+}
