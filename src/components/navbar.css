@@ -65,3 +65,7 @@ a:active { text-decoration: none; }
 #uparrow{
   margin: auto;
 }
+
+.navbar-collapse.in {
+  overflow-y: visible !important; /* Avoid !important, used it here only for priority */
+}

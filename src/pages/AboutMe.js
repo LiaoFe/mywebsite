@@ -8,7 +8,7 @@ import JavaLogo from '../images/java-icon.png'
 import NodejsLogo from '../images/nodejs-icon.png'
 import CPlusPlusLogo from '../images/C++icon.png'
 import GithubLogo from '../images/GitHub-Mark-Light-64px.png'
-import Resume from "./FelixLiaoResume.pdf"
+import Resume from "./FelixLiaoResumev2.pdf"
 import { Link } from 'react-router-dom'
 import Blog from './Blog'
 import '../components/navbar.css'
@@ -92,7 +92,6 @@ function AboutMe(){
                     <Link to="/mywebsite/blog" id="blogbutton">
                         <Button className="btn btn-secondary "  onClick={() =>{
                             window.scrollTo(0, 0);
-                            this.toggleVisible();
                         }}>
                             My Game Reviews
                         </Button>

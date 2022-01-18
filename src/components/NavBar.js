@@ -43,8 +43,8 @@ import './navbar.css'
           
            <Fade in={visible}> 
           <NavDropdown //as={ButtonGroup}
-            align={{ lg: 'end' }}
-            id="dropdown-menu-align-responsive-1" to='/blog' >
+            align={{ lg: 'end' }} 
+            id="dropdown-menu-align-responsive-1" to='/blog' right={true}>
             <NavDropdown.Item href="./blog#witcher3">Witcher 3</NavDropdown.Item>
             {/* <NavDropdown.Item href="ac-3">Assassin's Creed: III</NavDropdown.Item>
             <NavDropdown.Item href="ac-black-flag">Assassin's Creed: Black Flag</NavDropdown.Item> */}
