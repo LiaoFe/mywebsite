@@ -30,8 +30,7 @@ const ScrollButton = () =>{
             
         
         <Fade in={visible}>
-            <Button id="thin" className="position-fixed bottom-0 end-0 m-3 pt-1" variant="secondary"  onClick={scrollToTop}
-            >
+            <Button id="thin" className="position-fixed bottom-0 end-0 m-3 pt-1" variant="secondary"  onClick={scrollToTop}>
             <Figure.Image fluid src={UpArrow} id="uparrow"></Figure.Image>
             </Button>
             </Fade>
