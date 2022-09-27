@@ -12,6 +12,9 @@ import Resume from "./FelixLiaoResumeV3.pdf"
 import { Link } from 'react-router-dom'
 import Blog from './Blog'
 import '../components/navbar.css'
+import DartLogo from "../images/Dart-logo.png"
+import FlutterLogo from "../images/flutter.png"
+import CLogo from "../images/C_Logo.png"
 //import ReactLogo  from '../images/128px-React-icon.svg.png'
 
 const Icon = (props) =>{
@@ -69,6 +72,14 @@ function AboutMe(){
                         <Col>
                             <Icon name="Node.js" img={NodejsLogo}/>
                         </Col>
+
+                        <Col>
+                            <Icon name="Dart" img={DartLogo}/>
+                        </Col>
+
+                        <Col>
+                            <Icon name="Flutter" img={FlutterLogo}/>
+                        </Col>
                     
                         <Col>
                             <Icon name="HTML" img={HTMLLogo}/>
@@ -80,6 +91,10 @@ function AboutMe(){
 
                         <Col>
                             <Icon name="C++" img={CPlusPlusLogo}/>
+                        </Col>
+
+                        <Col>
+                            <Icon name="C" img={CLogo}/>
                         </Col>
   
                     </Row>
