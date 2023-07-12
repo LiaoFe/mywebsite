@@ -33,14 +33,14 @@ import Pytorch from "../images/pytorch.png";
 
 const Icon = (props) => {
   return (
+    // <Col style={{ display: "flex", alignItems: "center", margin: "auto" }}>
     <Card
       text={"secondary"}
       background={"secondary"}
-      style={{ width: "auto", width: "150px" }}
-      id="cards"
-      className="card text-white bg-secondary mb-4"
+      style={{ width: "200px", justifyContent: "center" }}
+      className="card text-white bg-secondary m-3"
     >
-      <Card.Body id="no-padding">
+      <Card.Body id="no-padding" style={{ margin: "20px" }}>
         <Card.Title className="text-center" id="card-name">
           {props.name}
         </Card.Title>
@@ -59,6 +59,7 @@ const Icon = (props) => {
         />
       </Card.Body>
     </Card>
+    // </Col>
   );
 };
 
@@ -84,57 +85,45 @@ function AboutMe() {
         <Row>
           <h2>Skills</h2>
         </Row>
-        <Row>
-          <Col>
+        <Row style={{ display: "flex", justifyContent: "center" }}>
+          <>
             <Icon name="Python" img={PythonLogo} height="40px" />
-          </Col>
-          <Col>
+          </>
+          <>
             <Icon name="React" img={ReactLogo} />
-          </Col>
-
-          <Col>
+          </>
+          <>
             <Icon name="Java" img={JavaLogo} />
-          </Col>
-
-          <Col>
+          </>
+          <>
             <Icon name="Node.js" img={NodejsLogo} />
-          </Col>
-
-          <Col>
+          </>
+          <>
             <Icon name="Dart" img={DartLogo} height="40px" />
-          </Col>
-
-          <Col>
+          </>
+          <>
             <Icon name="Flutter" img={FlutterLogo} height="40px" />
-          </Col>
-
-          <Col>
+          </>
+          <>
             <Icon name="HTML" img={HTMLLogo} />
-          </Col>
-
-          <Col>
+          </>
+          <>
             <Icon name="CSS" img={CSSLogo} />
-          </Col>
-
-          <Col>
+          </>
+          <>
             <Icon name="C++" img={CPlusPlusLogo} />
-          </Col>
-
-          <Col>
+          </>
+          <>
             <Icon name="C" img={CLogo} height="40px" />
-          </Col>
-          <Col>
+          </>
+          <>
             <Icon name="Typescript" img={TSLogo} height="35px" />
-          </Col>
-          <Col>
+          </>
+          <>
             <Icon name="Javascript" img={JSLogo} height="35px" />{" "}
-          </Col>
-          <Col>
-            <Icon name="NumPy" img={Numpy} height="35px" />{" "}
-          </Col>
-          <Col>
-            <Icon name="Pytorch" img={PythonLogo} height="35px" />{" "}
-          </Col>
+          </>
+          <Icon name="NumPy" img={Numpy} height="35px" />{" "}
+          <Icon name="Pytorch" img={PythonLogo} height="35px" />{" "}
         </Row>
       </Container>
       <Container id="hobbies" style={{ margin: "auto" }}>
