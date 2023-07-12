@@ -129,8 +129,8 @@ function AboutMe() {
       <Container id="hobbies" style={{ margin: "auto" }}>
         <h2>Hobbies</h2>
         <p id="longer">
-          I love playing badminton, going to the gym, and challenging my
-          thinking
+          I love playing badminton, volleyball, board games, and going to the
+          gym
         </p>
         <p id="shorter">
           During the pandemic, I started playing new video games and wrote a
