@@ -23,12 +23,12 @@ import DartLogo from "../images/Dart-logo.png";
 import FlutterLogo from "../images/flutter.png";
 import CLogo from "../images/C_Logo.png";
 import PythonLogo from "../images/python.png";
-import Resume from "./FelixResume.pdf";
 import TSLogo from "../images/typescript.png";
 import JSLogo from "../images/javascript.png";
 import Numpy from "../images/numpy.png";
 import Pytorch from "../images/pytorch.png";
-
+import Resume from "./FelixResume.pdf";
+import PDF from "./FelixResumeS23_Final.pdf";
 //import ReactLogo  from '../images/128px-React-icon.svg.png'
 
 const Icon = (props) => {
@@ -75,7 +75,7 @@ function AboutMe() {
         <h1>About Me</h1>
         <p> Student at the University of Waterloo, CS '25</p>
         <p>Enthusiastic to learn new coding skills</p>
-        <a href={Resume} target="_blank" style={{ margin: "auto" }}>
+        <a href={PDF} target="_blank" style={{ margin: "auto" }}>
           <Button className="m-auto mt-2" variant="secondary">
             My Resume
           </Button>
@@ -123,7 +123,7 @@ function AboutMe() {
             <Icon name="Javascript" img={JSLogo} height="35px" />{" "}
           </>
           <Icon name="NumPy" img={Numpy} height="35px" />{" "}
-          <Icon name="Pytorch" img={PythonLogo} height="35px" />{" "}
+          <Icon name="Pytorch" img={Pytorch} height="35px" />{" "}
         </Row>
       </Container>
       <Container id="hobbies" style={{ margin: "auto" }}>
