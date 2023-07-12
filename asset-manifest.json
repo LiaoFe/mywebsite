@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/mywebsite/static/css/main.c97ae4ba.css",
-    "main.js": "/mywebsite/static/js/main.79e55f27.js",
+    "main.css": "/mywebsite/static/css/main.0f503208.css",
+    "main.js": "/mywebsite/static/js/main.31bbdff9.js",
     "static/media/FelixResume.pdf": "/mywebsite/static/media/FelixResume.b54be38ef416da08b318.pdf",
+    "static/media/FelixResumeS23_Final.pdf": "/mywebsite/static/media/FelixResumeS23_Final.64d34687ac0e8811c97d.pdf",
     "static/media/ACodyssey.jpg": "/mywebsite/static/media/ACodyssey.aa03e2093aa3e1bac8f5.jpg",
     "static/media/witcher3.jpg": "/mywebsite/static/media/witcher3.941cfdd8c9e74e9ee0b4.jpg",
     "static/media/python.png": "/mywebsite/static/media/python.1eaaad356f1e20a2540f.png",
@@ -11,11 +12,11 @@
     "static/media/javascript.png": "/mywebsite/static/media/javascript.ac9e504211b46cfb0118.png",
     "static/media/numpy.png": "/mywebsite/static/media/numpy.9eca1f7a4f09a8c742fd.png",
     "index.html": "/mywebsite/index.html",
-    "main.c97ae4ba.css.map": "/mywebsite/static/css/main.c97ae4ba.css.map",
-    "main.79e55f27.js.map": "/mywebsite/static/js/main.79e55f27.js.map"
+    "main.0f503208.css.map": "/mywebsite/static/css/main.0f503208.css.map",
+    "main.31bbdff9.js.map": "/mywebsite/static/js/main.31bbdff9.js.map"
   },
   "entrypoints": [
-    "static/css/main.c97ae4ba.css",
-    "static/js/main.79e55f27.js"
+    "static/css/main.0f503208.css",
+    "static/js/main.31bbdff9.js"
   ]
 }
