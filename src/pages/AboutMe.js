@@ -150,7 +150,7 @@ function AboutMe() {
       </Container>
       <Stack id="contact">
         <h2>Contact</h2>
-        <h5>felix.liao@uwaterloo.ca</h5>
+        <h5>f4liao@uwaterloo.ca</h5>
         <a id="githublogolink" href="https://github.com/LiaoFe" target="_blank">
           <img src={GithubLogo} id="githublogo"></img>
         </a>
