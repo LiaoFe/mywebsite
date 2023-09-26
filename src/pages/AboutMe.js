@@ -29,6 +29,7 @@ import Numpy from "../images/numpy.png";
 import Pytorch from "../images/pytorch.png";
 import Resume from "./FelixResume.pdf";
 import PDF from "./FelixResumeS23_Final.pdf";
+import Turtie from "../images/sleepie turtie.webp"
 //import ReactLogo  from '../images/128px-React-icon.svg.png'
 
 const Icon = (props) => {
@@ -69,6 +70,8 @@ function AboutMe() {
       {/* Welcome */}
       <Container fluid id="welcome">
         <h1>Welcome, I'm Felix</h1>
+        <p> Congrats on finding the easter egg in my personal website :D </p>
+        <p> This is my very first website I built! </p>
         {/*about*/}
       </Container>
       <Stack id="about">
@@ -153,6 +156,14 @@ function AboutMe() {
         <h5>f4liao@uwaterloo.ca</h5>
         <a id="githublogolink" href="https://github.com/LiaoFe" target="_blank">
           <img src={GithubLogo} id="githublogo"></img>
+        </a>
+        <a href="https://mywebsitev3-l2fkn27ny-liaofe.vercel.app/" target="_blank">
+          <img
+            src={Turtie}
+            width="50px"
+            height="50px"
+            style={{margin: '25px'}}
+          ></img>
         </a>
       </Stack>
     </div>
