@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mywebsite/static/css/main.0f503208.css",
-    "main.js": "/mywebsite/static/js/main.633686bc.js",
+    "main.css": "/mywebsite/static/css/main.c97ae4ba.css",
+    "main.js": "/mywebsite/static/js/main.72f4b3ff.js",
     "static/media/FelixResume.pdf": "/mywebsite/static/media/FelixResume.b54be38ef416da08b318.pdf",
     "static/media/FelixResumeS23_Final.pdf": "/mywebsite/static/media/FelixResumeS23_Final.7f57dde951780fcfe040.pdf",
     "static/media/ACodyssey.jpg": "/mywebsite/static/media/ACodyssey.aa03e2093aa3e1bac8f5.jpg",
@@ -11,12 +11,13 @@
     "static/media/pytorch.png": "/mywebsite/static/media/pytorch.648f26a4323eb5ba89f7.png",
     "static/media/javascript.png": "/mywebsite/static/media/javascript.ac9e504211b46cfb0118.png",
     "static/media/numpy.png": "/mywebsite/static/media/numpy.9eca1f7a4f09a8c742fd.png",
+    "static/media/sleepie turtie.webp": "/mywebsite/static/media/sleepie turtie.43acbf3c2e2c9e01129d.webp",
     "index.html": "/mywebsite/index.html",
-    "main.0f503208.css.map": "/mywebsite/static/css/main.0f503208.css.map",
-    "main.633686bc.js.map": "/mywebsite/static/js/main.633686bc.js.map"
+    "main.c97ae4ba.css.map": "/mywebsite/static/css/main.c97ae4ba.css.map",
+    "main.72f4b3ff.js.map": "/mywebsite/static/js/main.72f4b3ff.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f503208.css",
-    "static/js/main.633686bc.js"
+    "static/css/main.c97ae4ba.css",
+    "static/js/main.72f4b3ff.js"
   ]
 }
